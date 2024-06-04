@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="signup-bg">
+    <div class="form-container">
+        <form id="signup-form" method="POST" action="signup.php">
+            <h2 class="form-title">Weather App</h2>
+            <label for="signup-name">Name</label>
+            <input type="text" id="signup-name" name="name" required>
+            <div id="signup-name-error" class="error-message"></div>
+            <label for="signup-username">Username</label>
+            <input type="text" id="signup-username" name="username" required>
+            <div id="signup-username-error" class="error-message"></div>
+            <label for="signup-password">Password</label>
+            <input type="password" id="signup-password" name="password" required>
+            <div id="signup-password-error" class="error-message"></div>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="index.html">Login</a></p>
+    </div>
+</body>
+</html>
